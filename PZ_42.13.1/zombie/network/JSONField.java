@@ -1,0 +1,12 @@
+// Decompiled with Zomboid Decompiler v0.3.0 using Vineflower.
+package zombie.network;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target(ElementType.FIELD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface JSONField {
+}
