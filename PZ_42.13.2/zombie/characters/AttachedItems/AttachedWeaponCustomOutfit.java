@@ -1,0 +1,11 @@
+// Decompiled with Zomboid Decompiler v0.3.0 using Vineflower.
+package zombie.characters.AttachedItems;
+
+import java.util.ArrayList;
+
+public final class AttachedWeaponCustomOutfit {
+    public String outfit;
+    public int chance;
+    public int maxitem;
+    public final ArrayList<AttachedWeaponDefinition> weapons = new ArrayList<>();
+}
